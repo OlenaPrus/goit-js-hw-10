@@ -5,7 +5,7 @@
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 40px;
 }
 
@@ -15,7 +15,36 @@
   line-height: 1.5;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+h1 {
+  margin: 16px 0;
+}
+.nav-item {
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.nav-item:hover,
+.nav-item:active {
+  background-color: #6c8cff;
+}
+.section-link {
+  padding: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.main-logo {
+  margin-left: 450px;
 }
