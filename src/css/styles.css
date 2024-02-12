@@ -99,3 +99,100 @@ button:not([disabled]):hover {
 .field {
   text-align: center;
 }
+
+/* promise */
+
+.form {
+  width: 360px;
+  margin-top: 36px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+form > label {
+  display: flex;
+  flex-direction: column;
+}
+
+form > label > input:first-child {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  outline: transparent;
+  transition: border-color 250ms ease-in-out;
+}
+
+form > label > input:first-child:hover {
+  border-color: black;
+}
+
+form > label > input:first-child:focus {
+  border-color: #4e75ff;
+}
+
+form > label > input:first-child:disabled {
+  color: #808080;
+}
+
+fieldset {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 48px;
+  width: 360px;
+  height: 64px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+fieldset:hover {
+  border-color: #000000;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+input[type='radio'] {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+form button {
+  margin-top: 24px;
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+form button:disabled {
+  background-color: #808080;
+  cursor: default;
+}
+
+button:hover,
+button:focus {
+  background: #6c8cff;
+}
